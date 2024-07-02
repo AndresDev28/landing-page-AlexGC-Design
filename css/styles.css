@@ -618,7 +618,7 @@ body {
 
     .price_element--best {
       width: 90%;
-      padding: 40px;
+      /* padding: 40px; */
     }
 
     .price_price {
@@ -631,6 +631,35 @@ body {
 
     .testimony_container {
       grid-template-columns: 28px 1fr 28px;
+      gap: .9em;
+    }
+
+    .testimony_course {
+      margin-top: 15px;
+    }
+
+    .footer_container {
+      flex-wrap: wrap;
+    }
+
+    .nav--footer {
+      width: 100%;
+      justify-items: center;
+    }
+
+    .nav_link--footer {
+      width: 100%;
+      justify-content: space-evenly;
+      margin: 0;
+    }
+
+    .footer_form {
+      width: 100%;
+      justify-content: space-evenly;
+    }
+
+    .footer_input {
+      flex: 1; /* Ocupa todo el espacio disponible */
     }
 
   }

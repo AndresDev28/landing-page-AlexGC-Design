@@ -356,6 +356,7 @@ body {
   }
 
   .questions_title {
+    text-align: left;
     display: flex;
     font-size: 20px;
     padding: 30px 0 30px;
@@ -463,6 +464,7 @@ body {
     font-size: 1rem;
     color: #fff;
     border-radius: 6px;
+    cursor: pointer;
   }
 
   .footer_copy {
@@ -575,6 +577,7 @@ body {
     .nav--footer {
       width: 100%;
       justify-items: center;
+      padding-bottom: 60px;
     }
 
     .nav_link--footer {
@@ -634,32 +637,36 @@ body {
       gap: .9em;
     }
 
-    .testimony_course {
-      margin-top: 15px;
+    .questions_title {
+      font-size: 1rem;
     }
 
-    .footer_container {
-      flex-wrap: wrap;
+    .footer_title {
+      justify-self: start;
+      margin-bottom: 15px;
     }
 
     .nav--footer {
-      width: 100%;
-      justify-items: center;
+      padding-bottom: 60px;
     }
 
     .nav_link--footer {
-      width: 100%;
-      justify-content: space-evenly;
-      margin: 0;
+      justify-content: space-between;
     }
 
-    .footer_form {
-      width: 100%;
-      justify-content: space-evenly;
+    .footer_inputs {
+      flex-wrap: wrap;
     }
 
     .footer_input {
-      flex: 1; /* Ocupa todo el espacio disponible */
+      flex-basis: 100%;
+      margin: 0; 
+      margin-bottom: 16px;
+    }
+
+    .footer_submit {
+      margin: 0;
+      width: 100%;
     }
 
   }
